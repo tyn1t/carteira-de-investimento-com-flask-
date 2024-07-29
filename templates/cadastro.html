@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="{{url_for('static', filename='css/stytes_login.css')}}">
+<form action="/cadastro" method="POST">
+  <div class="container">
+    <h2 class="Cadastror">Cadastro</h2>
+    <div class="N1">
+      <label for="Name user">Nome</label>
+      <input type="text" name="user">
+    </div>
+    <div class="N2">
+      <label for="Email_u">Gmail</label>
+      <input type="Email"  id="Email_u" name="Email">
+    </div>
+
+    <div class="N2">
+      <label for="Email_1">Gmail</label>
+      <input type="Email"  id="Email_1" name="Email">
+    </div>
+
+    <div class="N3">
+        <label>password</label>
+        <input type="password" name="password">
+    </div>
+    <div class="N3">
+      <label >password</label>
+      <input type="password" name="password">
+    </div>
+
+  
+    <div>
+      <button type="submit" name="btn-action" value="login" class="btn btn-secundary">login</button>
+
+     <button type="submit" name="btn-action" value="cadastro" class="btn btn-primary">Cadastra</button>
+    </div>
+  </div>
+  </form>

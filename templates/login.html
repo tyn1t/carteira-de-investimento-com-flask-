@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="{{url_for('static', filename='css/stytes_login.css')}}">
+<form action="/login" method="POST">
+  <div class="container">
+    <h2 class="login">Login</h2>
+    <div class="N1">
+      <label >Nome</label>
+      <input type="text" name="name">
+    </div>
+    <div class="N2">
+      <label for="Email_u">Gmail</label>
+      <input type="Email"  id="Email_u" name="Email">
+    </div>
+    <div class="N3">
+      <label for="Email_u">password</label>
+      <input type="password" name="password">
+    </div>
+    <div>
+      <button type="submit" name="btn-action" value="login" class="btn btn-primary" id="btn btn-login">login</button>
+  
+      <button type="submit" name="btn-action" value="cadastra" class="btn btn-secundary">Cadastra</button>
+    </div>
+  </div>
+  
+</form>
+

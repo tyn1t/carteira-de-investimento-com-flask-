@@ -1,0 +1,53 @@
+/* css do login e cadastra */
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #f2f2f2;
+    padding: 90px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.N1, .N2, .N3 {
+    margin-bottom: 20px; 
+  }
+  
+.N1 label, .N2 label, .N3 label {
+    display: block; 
+    margin-bottom: 10px; 
+}
+
+.N1 input, .N2 input, .N3 input {
+    width: 100%; 
+    padding: 10px;
+    padding-right: 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+  
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-secundary {
+    background-color: #6c757d;
+    color: white;
+}
